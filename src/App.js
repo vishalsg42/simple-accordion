@@ -1,5 +1,7 @@
 import React from "react";
 import Accordian from "./components/Accordian";
+import ButtonExcercise from "./components/ButtonExcercise";
+import SearchWidget from "./components/SearchWidget";
 
 const items = [
   {
@@ -20,7 +22,9 @@ const App = () => {
   return (
     <div className="ui container">
       <br />
-      <Accordian items={items} />
+      {/* <Accordian items={items} /> */}
+      {/* <ButtonExcercise /> */}
+      <SearchWidget />
     </div>
   );
 };
